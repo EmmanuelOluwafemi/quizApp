@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Start Button -->
+    <div class="start_btn">
+        <button>Start Quiz</button>
+    </div>
+    <!-- information box -->
+    <div class="info_box">
+        <div class="info_title">
+            <span>Some rules of this quiz</span>
+        </div>
+        <div class="info_list">
+            <div class="info">1. You will have only <span>15 seconds</span> for each question</div>
+            <div class="info">2. Once you select your answer you can't reselect.</div>
+            <div class="info">3. You can't select any option once time is off.</div>
+            <div class="info">4. You can't exit from the quiz once you start playing.</div>
+            <div class="info">5. You will get points on basis of correct answers.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Timely Quiz</div>
+            <div class="timer">
+                <div class="time_text">Time Left</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <span>What Does Html Means?</span>
+            </div>
+            <div class="option_list">
+                
+            </div>
+        </section>
+
+        <!-- Quiz Footer -->
+        <footer>
+            <div class="total_que">
+                
+            </div>
+            <button class="next_btn">Next Question</button>
+        </footer>
+    </div>
+
+    <!-- Result box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">
+            You've Completed the quiz
+        </div>
+        <div class="score_text">
+            
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/question.js"></script>
+</body>
+</html>
